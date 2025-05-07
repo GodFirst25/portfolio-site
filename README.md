@@ -22,12 +22,16 @@ The Home and About section along with the contact section will be on the same pa
 - The About section includes a brief description of who I am and why I do what I do
 - The Contact section will be placed in the footer which will provide my contact information and also include a form which consist of text input, email input, text area for users' comment, and submit button so that I can receive their messages.
 
+Lastly, update the portfolio page every three months with new experiences, projects, and skills.
+
 CSS
 The Home section has to be styled in a neutral and aesthetic way that portrays who I am as a person. 
+Use colors that corresponds with dark/light mode transformation.
 
 
 JavaScript
-The contact information will need some interactivity with the use of <form>.
+The contact information will need some interactivity with the use of form tag.
+Also an inclusion of dark and light mode in the Home and Portfolio page. 
 
 
 
@@ -36,5 +40,6 @@ The contact information will need some interactivity with the use of <form>.
 
 Future Updates
 
-Make use of Bootstrap or React for more accessibility and Node.js for more interactivity on the site.
-Upgrade the contact which is in the footer to have its own page where you can see the users' comment. MySQL will be a very good contribution to this.
+- Make use of Bootstrap or React for more accessibility and Node.js for more interactivity on the site.
+- Upgrade the contact which is in the footer to have its own page where you can see the users' comment. MySQL will be a very good contribution to this.
+- Include Dark/Light mode in all the web pages including the blog.

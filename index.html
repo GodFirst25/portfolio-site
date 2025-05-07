@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -22,13 +22,20 @@
         </nav>
 
         <div class="hero-content">
-            <h1>Hello!<br><span>I am a Web Developer at the Intersection of Film, Music & Tech</span></h1>
-            <p>Blending the visual language of film, the emotion of music, and the precision of technology to craft immersive digital experiences.</p>
+            <div class="hero-text">
+                <h1>OLAMIDE ODUNTAN</h1>
+                <h2>I am a Creative Technologist</h2>
+                <div class="icons">🎵 ✝️ ❤️</div>
+                <p>I merge music, faith, and technology to craft immersive digital experiences.</p>
 
-            <div class="social-links">
-                <a href="#"><img src="icons/github.svg" alt="GitHub"></a>
-                <a href="#"><img src="icons/linkedin.svg" alt="LinkedIn"></a>
-                <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+                <div class="social-links">
+                    <a href="#"><img src="icons/github.svg" alt="GitHub"></a>
+                    <a href="#"><img src="icons/linkedin.svg" alt="LinkedIn"></a>
+                    <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-image.jpg" alt="Hero Image">
             </div>
         </div>
     </header>
@@ -53,7 +60,27 @@
         </div>
     </section>
 
-    
+    <section id="contact">
+        <div class="contact-form">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="name">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="name">Comment:</label>
+                <input type="message" id="message" name="message" required>
+
+                <label for="name">Request:</label>
+                <input type="request" id="request" name="request">
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
     <footer>
         <p>&copy; 2025 My Page. All rights reserved.</p>
     </footer>
