@@ -13,6 +13,7 @@ Let's dive in!
 For this website, I'll be making use of HTML, CSS, and JavaScript.
 
 HTML
+
 First, we structured the website using HTML, where we included the nav bar to move to different sections
 of the page such as Home, About, Portfolio, Blog, and Contact.
 
