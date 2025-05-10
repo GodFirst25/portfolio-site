@@ -15,5 +15,207 @@ body {
 header {
     background-color: linen;
     padding: 2rem 4rem;
+}
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 0 2rem;
+}
+
+nav .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: steelblue;
+}
+
+/* Hero Section */
+.hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 4rem 6rem 4rem;
+    background-color: linen;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    overflow: hidden;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: darkslategray;
+}
+
+.hero-text h2 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: darkslategray;
+    font-weight: normal; 
+}
+
+.hero-text .icons {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: darkslategray;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    color: dimgray;
+    margin-bottom: 1.5rem;
+}
+
+.hero-image img {
+    max-width: 400px;
+    height: auto;
+    max-height: 460px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    object-fit: cover;
+}
+
+/* Social Media Links */
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-links img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    background-color: floralwhite;
+    padding: 4rem 2rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-image img {
+    width: 220px;
+    border-radius: 20px;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-text .tags span {
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 0.3rem 0.7rem;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+/* Contact Section */
+.contact {
+    background-color: lightsteelblue;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+.contact-info {
+    margin-top: 2rem;
+}
+
+.contact-info .social-links a img {
+    width: 24px;
+    margin: 0 0.5rem;
+}
+
+
+/* Footer */
+footer {
+    background-color: midnightblue;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 1 rem;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li a {
+   color: white;
+   text-decoration: none;
+}
+
+.footer-quote p {
+    font-style: italic;
+    color: lightgray;
+}
+
+footer p {
+    font-size: 0.9rem;
 }

@@ -27,62 +27,83 @@
                 <h2>I am a Creative Technologist</h2>
                 <div class="icons">🎵 ✝️ ❤️</div>
                 <p>I merge music, faith, and technology to craft immersive digital experiences.</p>
-
-                <div class="social-links">
-                    <a href="#"><img src="icons/github.svg" alt="GitHub"></a>
-                    <a href="#"><img src="icons/linkedin.svg" alt="LinkedIn"></a>
-                    <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
-                </div>
             </div>
             <div class="hero-image">
-                <img src="images/hero-image.jpg" alt="Hero Image">
+                <img src="profile-pic.jpg" alt="a pic of me">
             </div>
         </div>
     </header>
 
 
     <!-- About -->
-    <section>
-        <div>
+    <section id="about" class="about">
+        <div class="about-image">
+            <img src="aboutme-pic.jpg" alt="This is me playing the piano">
+        </div>
+        <div class="about-text">
             <h2>About Me</h2>
             <p>
-                I'm a passionate creative technologist at the intersection of film, music, and technology. With a background in computer science and a 
-                love for storytelling, I blend cinematic visuals, dynamic audio, and code to build immersive experiences that resonate. 
+                I'm a Computer Science student at Florida International University with a deep love for creativity, storytelling, and technology -- passions
+                that first took root through music and now guide my work in front-end development and web design. I build digital experiences that are
+                not only functional but emotionally resonant, blending logic with artistry to create meaningful user connections. Whether through code or 
+                tools like Figma, Canva, and WebFlow, I see every project as a chance to communicate, connect, and create something that feels alive.
             </p>
-            <p>
-                Whether I'm designing intuitive user interfaces, editinng videos, producing music-driven visuals, or experimenting with interactive media,
-                my work lives at the crossroads of creativity and code. I'm especially interested in how sound and visulas can work together-like syncing
-                motion to music or building interactive tools that respond to rhythm and tone.
-            </p>
-            <p>
-             I believe technology isn't just functional, it's expressive. I use it as a medium to craft moments that feel cinematic, sound immersive, and work seamlessly.  
-            </p>
+            <div class="tags">
+                <span>🎧 Musician</span>
+                <span>💻 Front-End Engineering</span>
+                <span>💡 Innovation</span>
+            </div>
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="contact-section">
         <div class="contact-form">
-            <h2>Contact</h2>
+            <h2>Let's Connect</h2>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i
+                    </div>
+                    <p>📧 olamideoduntan26@gmail.com</p>
+                    <p>Miami, FL | Remote</p>
+                    <div class="social-links">
+                        <a href="https://github.com/GodFirst25" target="_blank"><img src="github.png" alt="GitHub"></a>
+                        <a href="https://www.linkedin.com/in/olamide-oduntan/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+                        <a href="https://www.instagram.com/lamzy15/" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
             <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="name">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="name">Comment:</label>
-                <input type="message" id="message" name="message" required>
-
-                <label for="name">Request:</label>
-                <input type="request" id="request" name="request">
-
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
                 <button type="submit">Submit</button>
             </form>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 My Page. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Olamide Oduntan</h3>
+                <p>Crafting harmony with tech and art.</p>
+            </div>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio.html">Portfolio</a></li>
+                <li><a href="#blog.html">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="footer-quote">
+                <p><em>"Stay inspired. Keep creating."</em></p>
+            </div>
+        </div>
+        <p class="copyright">© 2025 Olamide Oduntan. All rights reserved.</p>
     </footer>
+
+
 </body>
 </html>
