@@ -1,5 +1,6 @@
 # portfolio-site
-Check out what I'm up to!
+Check out what I'm up to...
+
 This is my official website coded from scratch to fully learn web development and design. 
 Here, you can catch latest update of projects, experiences, and lifestyle regarding web development,
 music, tech, and film in general which will be on my blog (coming soon). I might throw in some random lifestyle update that focuses on faith, trust, and love. So be on the lookout for that!
