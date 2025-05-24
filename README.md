@@ -13,6 +13,7 @@ Let's dive in!
 For this website, I'll be making use of HTML, CSS, and JavaScript.
 
 HTML
+
 First, we structured the website using HTML, where we included the nav bar to move to different sections
 of the page such as Home, About, Portfolio, Blog, and Contact.
 
@@ -25,11 +26,13 @@ The Home and About section along with the contact section will be on the same pa
 Lastly, update the portfolio page every three months with new experiences, projects, and skills.
 
 CSS
+
 The Home section has to be styled in a neutral and aesthetic way that portrays who I am as a person. 
 Use colors that corresponds with dark/light mode transformation.
 
 
 JavaScript
+
 The contact information will need some interactivity with the use of form tag.
 Also an inclusion of dark and light mode in the Home and Portfolio page. 
 
