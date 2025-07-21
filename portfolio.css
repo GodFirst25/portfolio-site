@@ -1,0 +1,84 @@
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #eee;
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.scroll-controls {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.scroll-controls button {
+    background: #ddd;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.scroll-controls button:hover {
+    background: #bbb;
+}
+
+.project-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 2rem;
+    scroll-behavior: smooth;
+    padding-bottom: 1rem;
+}
+
+.project-card {
+    flex: 0 0 auto;
+    width: 280px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    font-size: 1.1rem;
+    margin: 1rem 1rem 0.5rem;
+}
+
+.project-card p.description {
+    font-size: 0.95rem;
+    margin: 0 1rem 1rem;
+    color: #555;
+}
+
+.project-card .view-link {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    background-color: #444;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.project-card .view-link:hover {
+    background-color: #000;
+}
