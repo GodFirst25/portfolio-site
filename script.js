@@ -11,3 +11,8 @@ function scrollRight() {
         behavior: 'smooth'
     });
 }
+
+function toggleMenu() {
+    const nav = document.getElementById('nav-ul');
+    nav.classList.toggle('show');
+}

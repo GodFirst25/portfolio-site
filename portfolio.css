@@ -1,3 +1,27 @@
+nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 0 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: steelblue;
+}
+
 .skills ul {
     display: flex;
     flex-wrap: wrap;
