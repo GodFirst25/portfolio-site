@@ -13,6 +13,6 @@ function scrollRight() {
 }
 
 function toggleMenu() {
-    const nav = document.getElementById('nav-ul');
+    const nav = document.getElementById('nav-links');
     nav.classList.toggle('show');
 }

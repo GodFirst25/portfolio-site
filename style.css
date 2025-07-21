@@ -4,6 +4,10 @@
     box-sizing:border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: linen;
@@ -250,7 +254,7 @@ footer p.copyright {
     nav ul {
         display: none;
         flex-direction: column;
-        backgorund-color: linen;
+        background-color: linen;
         position: absolute;
         top: 60px;
         right: 2rem;
